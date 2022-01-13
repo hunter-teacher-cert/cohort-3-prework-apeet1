@@ -1,19 +1,25 @@
 public class Date {
   public static void main(String[] args) {
-    String firstLine = "Hello, again!";
-    System.out.println(firstLine);
-
-    System.out.print("The value of FirstLine is ");
-    System.out.println(firstLine);
-
-    int hour = 11;
-    int minute = 59;
-    System.out.print("The current time is ");
-    System.out.print(hour);
-    System.out.print(":");
-    System.out.print(minute);
-    System.out.println(".");
     
-  }
+    String day = "Thursday";
+    int date = 13;
+    String month = "January ";
+    int year = 2022;
 
+    System.out.println("American format:");
+    System.out.print(day);
+    System.out.print(", ");
+    System.out.print(month);
+    System.out.print(date);
+    System.out.print(", ");
+    System.out.println(year);
+
+    System.out.println("European format:");
+    System.out.print(day);
+    System.out.print(" ");
+    System.out.print(date);
+    System.out.print(" ");
+    System.out.print(month);
+    System.out.println(year);
+  }
 }

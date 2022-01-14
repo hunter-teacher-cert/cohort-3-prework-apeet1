@@ -7,8 +7,7 @@ public class Guess {
     Random random = new Random();
     int number = random.nextInt(100) + 1; 
 
-    System.out.println("I'm thinking of a number between 1 and 100 (including both.) Can you guess what it is?");
-    System.out.print("Type a number: "); 
+    System.out.println("I'm thinking of a number between 1 and 100 (including both.) Can you guess what it is?\nType a number:");
     
     int guess = in.nextInt();
     int error = Math.abs(number - guess);

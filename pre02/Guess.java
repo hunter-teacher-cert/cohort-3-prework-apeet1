@@ -1,5 +1,6 @@
 import java.util.Random;
 
+<<<<<<< HEAD
 public class Guess {
   public static void main(String[] args) {
     //pick a random number
@@ -15,3 +16,15 @@ public class Guess {
 
   }
 }
+=======
+public class GuessStarter {
+    public static void main(String[] args) {
+      //pick a random number
+      Random = new Random();
+      int number = random.nextInt(100) + 1
+      System.out.println(number)
+
+      
+    }
+}
+>>>>>>> origin/master

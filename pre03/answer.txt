@@ -1,0 +1,13 @@
+What is the output of the following program? Be precise about where there are spaces and where there are newlines.
+Hint: Start by describing in words what ping and baffle do when they are invoked.
+
+Begin at main. Main outputs "No, I " and then invokes zoop.
+When invoked, zoop invokes baffle, which outputs "wug" and then invokes ping.
+When invoked, ping outputs "."
+The program returns to complete zoop by outputting "You wugga " on the next line and invokes baffle again, which outputs "wug", invokes ping, and outputs "."
+The program returns to to complete main by outputting "I " and then invokes baffle once again, outputting "wug", invoking ping,outputting "."
+
+The program prints:
+No, I wug.
+You wugga wug.
+I wug.
